@@ -9545,7 +9545,7 @@ body .bg-img .opacity .bouton {
 .main-bg {
   background-image: url("../../images/main_bg.jpg");
   background-repeat: repeat;
-  height: 120vh;
+  height: 150vh;
   width: 100%;
 }
 
@@ -9573,6 +9573,10 @@ body .bg-img .opacity .bouton {
   right: 0;
 }
 
+.rounded-circle {
+  width: 100px;
+}
+
 .displayed {
   display: block;
   margin-left: auto;
@@ -9587,6 +9591,54 @@ P.blocktext {
 
 .background-dark {
   background-color: black;
+}
+
+.champ {
+  background-image: url("../../images/book_table_bg.jpg");
+  width: 750px;
+  height: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.book {
+  padding-left: 175px;
+  padding-top: 80px;
+}
+
+.table {
+  border-top: dotted 2px black;
+}
+
+.saladePoulet {
+  display: inline-block;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 6px;
+}
+
+.olives {
+  margin-left: 9%;
+}
+
+.poulet {
+  margin-left: 3%;
+}
+
+.pink {
+  text-align: center;
+  background-color: pink;
+  margin-left: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */
