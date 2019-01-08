@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
@@ -61,64 +63,192 @@
 
 
 <!-- debut 2e partie -->
-    <div class="main-bg">
-        <div class="container">
-                <div class="card">
-                        <img class="box-left" src="../images/box-left-top.png"  alt="">
-                        <img class="box-right" src="../images/box-right-top.png" alt="">
-                        <img class="bottom-left" src="../images/box-bottom-left.png" alt="">
-                        <img class="bottom-right" src="../images/box-bottom_right.png"  alt="">
-                        
-                        <div class="card-body py-5">
-                          <h1 class="card-title text-center">Our Story</h1>
-                          <img class="displayed" src="../images/decoration_line.png" alt="">
-                          <p class="blocktext text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis beatae sit modi minima ex recusandae iure cupiditate sapiente consequuntur non adipisci amet quos quisquam reiciendis, iusto ipsam cum id architecto! ipsum dolor sit, amet consectetur adipisicing elit. Debitis beatae sit modi minima ex recusandae iure cupiditate sapiente consequuntur non adipisci amet quos quisquam reiciendis, iusto ipsam cum id architecto!</p>
-                        
-                          <h1 class="card-title text-center pt-5">Our Menu List</h1>
-                          <img class="displayed" src="../images/decoration_line.png" alt="">  
+<div class="main-bg">
+    <div class="container">
+            <div class="card">
+                    <img class="box-left" src="../images/box-left-top.png"  alt="">
+                    <img class="box-right" src="../images/box-right-top.png" alt="">
+                    <img class="bottom-left" src="../images/box-bottom-left.png" alt="">
+                    <img class="bottom-right" src="../images/box-bottom_right.png"  alt="">
+                    
+                    <div class="card-body py-5">
+                        <h1 class="card-title text-center">Our Story</h1>
+                        <img class="displayed" src="../images/decoration_line.png" alt="">
+                        <p class="blocktext text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis beatae sit modi minima ex recusandae iure cupiditate sapiente consequuntur non adipisci amet quos quisquam reiciendis, iusto ipsam cum id architecto! ipsum dolor sit, amet consectetur adipisicing elit. Debitis beatae sit modi minima ex recusandae iure cupiditate sapiente consequuntur non adipisci amet quos quisquam reiciendis, iusto ipsam cum id architecto!</p>
+                    
+                        <h1 class="card-title text-center pt-5">Our Menu List</h1>
+                        <img class="displayed" src="../images/decoration_line.png" alt="">  
 
 
 
 
 <!-- debut tableau du menu -->
+<!--debut menu-->
+<div class="row">
+        <div class="col-2 ">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link menu" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                    role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-mug-hot fa-4x pb-2"></i><br>
+                    <p class="police couleurs">Breakfast</p>
+                </a>
+                <a class="nav-link menu" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                    role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-mug-hot fa-4x pb-2"></i><br>
+                    <p class="police couleurs">Lunch</p>
+                </a>
+                <a class="nav-link menu " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                    role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-mug-hot fa-4x pb-2"></i><br>
+                    <p class="police couleurs">Snacks</p>
+                </a>
+                <a class="nav-link active menu" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                    role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-mug-hot fa-4x pb-2"></i><br>
+                    <p class="police couleurs">Dinner</p>
+                </a>
+            </div>
+        </div>
 
-                          <table class="table table-borderless">
-                                <thead>
-                                  <tr>
-                                    <th scope="col" >Breakfast</th>
-                                    
-                                    <th scope="col" class="display-inline-block"> 
-                                        <img  class="rounded-circle" src="../images/menu_image_1.jpg" alt=""> <p>last</p></th>
-                                    <th scope="col"><img class="rounded-circle" src="../images/menu_image_1.jpg" alt="">handle</th>                                   
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">Lunch</th>
-                                    
-                                    <td><img class="rounded-circle" src="../images/menu_image_1.jpg" alt=""> Otto</td>
-                                    <td> <img class="rounded-circle" src="../images/menu_image_1.jpg" alt="">@mdo</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Snacks</th>
-                                    
-                                    <td><img  class="rounded-circle" src="../images/menu_image_1.jpg" alt=""> Thornton</td>
-                                    <td> <img class="rounded-circle" src="../images/menu_image_1.jpg" alt="">@fat</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Dinner</th>
-                                    <td><img  class="rounded-circle" src="../images/menu_image_1.jpg" alt=""> Larry the Bird</td>
-                                    <td><img class="rounded-circle" src="../images/menu_image_1.jpg" alt="">@twitter</td>
-                                  
-                                  </tr>
-                                  <tr>
-                                        <th scope="row">Dinner</th>
-                                        <td><img  class="rounded-circle" src="../images/menu_image_1.jpg" alt=""> Larry the Bird</td>
-                                    <td><img class="rounded-circle" src="../images/menu_image_1.jpg" alt="">@twitter</td>
-                                  
-                                  </tr>
-                                </tbody>
-                              </table>
+
+        <div class="col-10">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <!-- debut colonne du milieu (menu) -->
+                                <div class="row">
+                                        <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                alt="">
+                                        </div>
+                                        <div class="col-7">
+                                            <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                to
+                                                Risotto restaurant
+                                                website. Here we try to share</p>
+                                        </div>
+                                        <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                    </div> 
+                                     <div class="row">
+                                            <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-7">
+                                                <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                    to
+                                                    Risotto restaurant
+                                                    website. Here we try to share</p>
+                                            </div>
+                                            <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                        </div> 
+                                         <div class="row">
+                                                <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-7">
+                                                    <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                        to
+                                                        Risotto restaurant
+                                                        website. Here we try to share</p>
+                                                </div>
+                                                <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                            </div>  
+                                            <div class="row">
+                                                    <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="col-7">
+                                                        <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                            to
+                                                            Risotto restaurant
+                                                            website. Here we try to share</p>
+                                                    </div>
+                                                    <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                                </div>
+                                                <!-- fin colonne du milieu (menu) -->
+                                                <!-- debut derniere (menu) -->
+                            <div class="row bord">
+                                <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                        alt="">
+                                </div>
+                                <div class="col-7 align-self-center pr-0 pt-4">
+                                    <p class=""><strong>Deer steak with potatoes</strong><br>Welcome
+                                        to
+                                        Risotto restaurant
+                                        website. Here we try to share</p>
+                                </div>
+                                <div class="col-2 align-self-center pl-0"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                        alt="">
+                                </div>
+                                <div class="col-7">
+                                    <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                        to
+                                        Risotto restaurant
+                                        website. Here we try to share</p>
+                                </div>
+                                <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                            alt="">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                            to
+                                            Risotto restaurant
+                                            website. Here we try to share</p>
+                                    </div>
+                                    <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                alt="">
+                                        </div>
+                                        <div class="col-7">
+                                            <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                to
+                                                Risotto restaurant
+                                                website. Here we try to share</p>
+                                        </div>
+                                        <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-7">
+                                                <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                    to
+                                                    Risotto restaurant
+                                                    website. Here we try to share</p>
+                                            </div>
+                                            <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                        </div>   <div class="row">
+                                                <div class="col-3"><img src="../images/menu_image_1.jpg " class="rounded-circle img-ronde"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-7">
+                                                    <p class="text-center"><strong>Deer steak with potatoes</strong><br>Welcome
+                                                        to
+                                                        Risotto restaurant
+                                                        website. Here we try to share</p>
+                                                </div>
+                                                <div class="col-2"><span class="couleur-taste taille-prix   px-2"><strong>$25</strong></span></div>
+                                            </div>
+                                            <!-- fin derniere colonne (menu) -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">..3.</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">..4.</div>
+            </div>
+        </div>
+    </div>
+
  <!-- Fin tableau du menu  -->
  <img class="displayed" src="../images/decoration_line.png" alt="">  
                         </div>
@@ -184,7 +314,7 @@
                          </div>
                         <div class="form-row">
                              <div class="form-group col-md-6">                           
-                                 <input type="#" class="form-control rounded-pill" id="inputEmail4" placeholder="Occasion">
+                                 <input type="#" class="form-control rounded-pill "  id="inputEmail4" placeholder="Occasion">
                              </div>
                               <div class="form-group col-md-6">
                                   <input type="Cuisine" class="form-control rounded-pill" id="inputPassword4" placeholder="Cuisine">
@@ -201,13 +331,137 @@
                  
                  <img class="saladePoulet olives rounded"  src="../images/blog_img1.jpg" alt="">
                  <img class="saladePoulet poulet rounded" src="../images/blog_img2.jpg" alt="">  
-                 <p class="">12 April 2017/ 20 comment/ 35 likes</p>
-                 <p class="">12 April 2017/ 20 comment/ 35 likes</p>
-                             
+                 <p class="pink"style="display:inline-block">12 April 2017/ 20 comment/ 35 likes</p>
+                 <p class="pink" style="display:inline-block"">12 April 2017/ 20 comment/ 35 likes</p>
+
+                 <h4 class="lorem ">lorem ipsum</h4>
+                 <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iusto ducimus, quos eaque alias molestias omnis? Dolorem,</p>
+                            
+                 <h4 class="lorem">lorem ipsum</h4>
+                 <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iusto ducimus, quos eaque alias molestias omnis? Dolorem,</p>
+                 <div class="bouton book">
+                    <button type="button" class="rbtn btn-secondary btn-lg rounded-pill bg-danger text-white">Know More </button>
             </div>
+
          </div>
      </div>   
-</div>    
-                
+</div>
+
+<!-- Debut Testimonials -->
+    <div class="imageFloue opacity">
+
+            <h1 class="card-title text-center pt-5 text-white">Book Your Table</h1>
+            <img class="displayed" src="../images/decoration_line.png" alt="">    
+            <div class="container pt-5">
+            <div class="row">
+                <div class="col-2"> <img class="rounded-circle" src="../images/testimonial1.jpg" alt=""> </div>
+                <div class="col-4"><div class="card bg-transparent text-white " style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                              Lorem Ipsum
+                          </h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Manager</h6>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem consequuntur optio ea corrupti eius excepturi eligendi </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4"><div class="card bg-transparent text-white" style="width: 18rem;">
+                        <div class="card-body ">
+                          <h5 class="card-title">
+                              Lorem ipsum
+                            </h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Manager</h6>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, nostrum maxime? Sint modi perspiciatis</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-2"> <img class="rounded-circle" src="../images/testimonial1.jpg" alt=""> </div>
+            </div>
+            </div>
+     </div>
+<!-- Fin Testimonials -->
+
+
+<!-- Debut contact -->
+<div class="main-bg">
+<h1 class="card-title text-center pt-5 text-dark ">Our Contact</h1>
+<img class="displayed " src="../images/decoration_line.png" alt=""> 
+        <div class="card border-success mb-3 bg-danger border-white mt-5" style="max-width: 18rem;">
+                <div class="card-header bg-danger border-white">
+                    <i class="fas fa-map-marker-alt fa-4x pb-2 text-white ">
+                    </i>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="card-body text-success">
+                        <i class="fas fa-phone fa-4x pb-2 text-white"></i>
+                  <p class="card-text text-white">+91-987654321</p>
+                </div>
+                <div class="card-footer bg-transparent border-white"> <i class="fas fa-envelope fa-4x pb-2 text-white"></i>
+                    <p class="card-text text-white">abc@abc.com</p>
+                </div>
+              </div>
+</div>
+
+<!-- Fin Contact -->
+<div class="ftbdecoimg"></div>
+<!-- Debut footer -->
+<div class="footer-bg">
+    <div class="containers ">
+    <div class="row">
+        <div class="col-4"><h3 class="text-white text-uppercase">about us</h3></div>
+        <div class="col-4"><h3 class="text-white text-uppercase">instagram</h3></div>
+        <div class="col-4"><h3 class="text-white text-uppercase">popular tags</h3></div>
+    </div>
+    <div class="row">
+            <div class="col-4"><p class="text-white text-uppercase py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium illo laboriosam magni harum atque adipisci vero nihil ab non corporis ratione aperiam delectus porro culpa aliquid, blanditiis voluptatum corrupti eos. </p>
+                <i class="fab fa-facebook-f text-white fa-lg px-3"></i>
+                <i class="fab fa-google-plus-g text-white fa-lg px-3"></i>
+                <i class="fab fa-pinterest-p text-white fa-lg px-3"></i>
+                <i class="fab fa-linkedin-in text-white fa-lg px-3"></i>
+            </div>
+            <div class="col-4 p-3">
+                <img class="img-menu"src="../images/menu_image_1.jpg" alt="">
+                <img class="img-menu"src="../images/menu_image_2.jpg" alt="">
+                <img class="img-menu"src="../images/menu_image_3.jpg" alt="">
+                <img class="img-menu"src="../images/menu_image_4.jpg" alt="">
+                <div class="row"></div>
+                <img class="img-menu"src="../images/menu_image_4.jpg" alt="">
+                <img class="img-menu"src="../images/menu_image_3.jpg" alt="">
+                <img class="img-menu"src="../images/menu_image_2.jpg" alt="">
+                <img class="img-menu"src="../images/menu_image_1.jpg" alt="">
+            </div>
+            <div class="col-4 ">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-danger rounded-pill border-white">Restaurant</button>
+                        <button type="button" class="btn btn-danger rounded-pill border-white">Responsive Design</button>
+                        <button type="button" class="btn btn-danger rounded-pill border-white">Hotel</button>
+                    </div>
+                    <div class="col-12">
+                        <button type="button " class="mt-3 btn btn-danger rounded-pill border-white">Blog Section</button>
+                        <button type="button " class="mt-3 btn btn-danger rounded-pill border-white">SEO</button>
+                        <button type="button " class="mt-3 btn btn-danger rounded-pill border-white">Cuisine</button>
+                    </div>
+                    <div class="col-12">
+                         <button type="button " class="mt-3 btn btn-danger rounded-pill border-white">Graphic</button>
+                         <button type="button " class="mt-3 btn btn-danger rounded-pill border-white">Food</button>
+                    </div>
+
+                </div>                    
+                </div>
+                 
+        </div>
+            
+    </div>
+</div>
+<!-- fin footer    -->
+
+<!-- debut barre fushia  -->
+<div class="background-color fushia">
+</div>
+<!-- fin barre fushia  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
 </body>
 </html>
